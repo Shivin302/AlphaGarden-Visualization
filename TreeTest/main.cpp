@@ -18,7 +18,11 @@ int main( void ){
     // uint ID_avocado = weberpenntree.buildTree( "Avocado", make_vec3(10,0,0) );
 
     weberpenntree.loadXML("../tools/basil.xml");
-    uint ID_basil = weberpenntree.buildTree( "Basil", make_vec3(0,0,0) );
+    weberpenntree.loadXML("../tools/basil1.xml");
+    weberpenntree.loadXML("../tools/basil2.xml");
+    uint ID_basil = weberpenntree.buildTree( "Basil", make_vec3(0,1,0));
+    uint ID_basil1 = weberpenntree.buildTree( "Basil1", make_vec3(0,-2,0));
+    uint ID_basil2 = weberpenntree.buildTree( "Basil2", make_vec3(0,-1,0));
 
 
 

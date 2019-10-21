@@ -14,7 +14,7 @@ set(BINDIR "/home/shivin/helios/TreeTest/build/lib")
 
 set(AWK "/usr/bin/awk")
 set(CMAKE_C_COMPILER "/usr/bin/cc")
-set(CMAKE_C_FLAGS -g)
+set(CMAKE_C_FLAGS )
 set(INCDIR "/home/shivin/helios/TreeTest/build/lib")
 set(PNG_PREFIX "")
 set(PNGLIB_MAJOR "1")

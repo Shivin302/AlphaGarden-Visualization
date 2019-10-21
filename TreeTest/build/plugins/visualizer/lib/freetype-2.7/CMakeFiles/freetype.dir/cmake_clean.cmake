@@ -42,8 +42,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/freetype.dir/src/winfonts/winfnt.c.o"
   "CMakeFiles/freetype.dir/src/base/ftdebug.c.o"
   "../../../../lib/libfreetype.pdb"
-  "../../../../lib/libfreetype.so"
   "../../../../lib/libfreetype.so.2.7.0"
+  "../../../../lib/libfreetype.so"
   "../../../../lib/libfreetype.so.2.7"
 )
 

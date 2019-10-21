@@ -15,8 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glfw.dir/glx_context.c.o"
   "CMakeFiles/glfw.dir/egl_context.c.o"
   "../../../../../lib/libglfw.pdb"
-  "../../../../../lib/libglfw.so"
   "../../../../../lib/libglfw.so.3.2"
+  "../../../../../lib/libglfw.so"
   "../../../../../lib/libglfw.so.3"
 )
 
