@@ -1,11 +1,11 @@
  <?xml version=1.0?>
  <helios>
-   <WeberPennTree label="Basil1">
+   <WeberPennTree label="basil1">
      <Shape> 2 </Shape> <!-- general tree shape id -->
      <BaseSize> 0.4 </BaseSize> <!-- percentage of the tree height before vegetation/branches start -->
      <BaseSplits> 0 </BaseSplits> <!-- stem splits from the trunk -->
      <BaseSplitSize> 0.8 </BaseSplitSize> <!-- distance from the base of the tree to the split as a fraction of tree height -->
-     <Scale> 1 </Scale> <!-- size and scaling of tree -->
+     <Scale> 0.5 </Scale> <!-- size and scaling of tree -->
      <ScaleV> 0.0 </ScaleV> <!-- size and scaling of tree -->
      <ZScale> 0.5 </ZScale> <!-- size and scaling of tree -->
      <ZScaleV> 0.25 </ZScaleV> <!-- size and scaling of tree -->
@@ -22,7 +22,7 @@
      <nCurve> 0 90 90 0</nCurve> <!-- curvature resolution and angles -->
      <nCurveV> 0 50 50 0</nCurveV> <!-- curvature resolution and angles -->
      <nCurveBack> 0 0 0 0</nCurveBack> <!-- curvature resolution and angles -->
-     <nLength> 0.5 0.4 0.7 0.7 </nLength> <!-- relative length -->
+     <nLength> 0.5 0.3 0.4 0.7 </nLength> <!-- relative length -->
      <nLengthV> 0.0 0.0 0.0 0</nLengthV> <!-- relative length -->
      <nTaper> 0.9 0.9 0.9 0 </nTaper> <!-- cross-section scSaling -->
      <nDownAngle> 0 70 0 0 </nDownAngle> <!-- branch: angle from parent -->
@@ -30,9 +30,9 @@
      <nRotate> 140 140 140 140 </nRotate> <!-- spiraling angle -->
      <nRotateV> 5 5 10 25 </nRotateV> <!-- spiraling angle -->
      <nBranches> 0 10 5 0 </nBranches> <!-- number of branches -->
-     <Leaves> 2 </Leaves> <!-- number of leaves per parent -->
+     <Leaves> 10 </Leaves> <!-- number of leaves per parent -->
      <LeafFile> ../images/BasilLeaf.png </LeafFile> <!-- path to leaf image PNG, relative to build -->
-     <LeafScale> 0.1 </LeafScale> <!-- leaf length -->
+     <LeafScale> 0.05 </LeafScale> <!-- leaf length -->
      <LeafScaleX> 0.5 </LeafScaleX> <!-- leaf length, relative x scale -->
      <WoodFile> plugins/visualizer/textures/wood2.jpg </WoodFile> <!-- Wood Texture File -->
    </WeberPennTree>
