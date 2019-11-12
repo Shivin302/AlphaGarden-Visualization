@@ -37,7 +37,7 @@ int main(void)
     weberpenntree.loadXML("../tools/hardcoded/dill4.xml");
     weberpenntree.loadXML("../tools/hardcoded/dill5.xml");
     Visualizer vis(1200); //Opens a graphics window of width 1200 pixels with default aspect ratio
-    vis.addSkyDomeByCenter(100, make_vec3(0, 0, 0), 20, "plugins/visualizer/textures/SkyDome_clouds.jpg", 0);
+    // vis.addSkyDomeByCenter(100, make_vec3(0, 0, 0), 20, "plugins/visualizer/textures/SkyDome_clouds.jpg", 0);
     // context.addPatch(make_vec3(0, 0, 0), make_vec2(10,10), make_SphericalCoord(0.f, 0.f), "plugins/visualizer/textures/dirt.jpg");
     // context.addPatch(make_vec3(1, 1, 0), make_vec2(5,5), make_SphericalCoord(0.f, 0.f), "plugins/visualizer/textures/marble_white.jpg");
     // context.addPatch(make_vec3(1, 1, 0), make_vec2(5,5), make_SphericalCoord(0.f, 0.f), "../images/soil.jpg");
@@ -91,19 +91,32 @@ int main(void)
     uint ID_basil20 = weberpenntree.buildTree("bokchoy1", make_vec3(1, 1.6, 0));
     uint ID_basil21 = weberpenntree.buildTree("bokchoy1", make_vec3(0, 1.2, 0));
     uint ID_basil22 = weberpenntree.buildTree("bokchoy3", make_vec3(0, 1, 0));
-    uint ID_bokchoy14 = weberpenntree.buildTree("mint1", make_vec3(0.2, 2, 0));
-    uint ID_bokchoy15 = weberpenntree.buildTree("mint2", make_vec3(0.1, 1.9, 0));
-    uint ID_bokchoy16 = weberpenntree.buildTree("mint3", make_vec3(0.4, 1.8, 0));
-    uint ID_bokchoy17 = weberpenntree.buildTree("basil3", make_vec3(0.3, 1.5, 0));
-    uint ID_bokchoy18 = weberpenntree.buildTree("basil1", make_vec3(0.7, 1.8, 0));
-    uint ID_bokchoy19 = weberpenntree.buildTree("basil1", make_vec3(1.5, 0.2, 0));
-    uint ID_bokchoy20 = weberpenntree.buildTree("basil2", make_vec3(1.8, 0.2, 0));
-    uint ID_bokchoy21 = weberpenntree.buildTree("mint3", make_vec3(1.8, 0.8, 0));
-    uint ID_bokchoy22 = weberpenntree.buildTree("mint2", make_vec3(1.3, 0.5, 0));
-    uint ID_bokchoy23 = weberpenntree.buildTree("mint1", make_vec3(1.8, 0.6, 0));
-    uint ID_bokchoy24 = weberpenntree.buildTree("mint2", make_vec3(1.7, 0.8, 0));
-    uint ID_bokchoy25 = weberpenntree.buildTree("mint3", make_vec3(1.8, 1.3, 0));
-    uint ID_bokchoy26 = weberpenntree.buildTree("mint2", make_vec3(0.2, 1.7, 0));
+    weberpenntree.buildTree("mint1", make_vec3(0.2, 2, 0));
+    weberpenntree.buildTree("mint2", make_vec3(0.1, 1.9, 0));
+    weberpenntree.buildTree("mint3", make_vec3(0.4, 1.8, 0));
+    weberpenntree.buildTree("basil3", make_vec3(0.3, 1.5, 0));
+    weberpenntree.buildTree("basil1", make_vec3(0.7, 1.8, 0));
+    weberpenntree.buildTree("basil1", make_vec3(1.5, 0.2, 0));
+    weberpenntree.buildTree("basil2", make_vec3(1.8, 0.2, 0));
+    weberpenntree.buildTree("basil1", make_vec3(1.8, 0.3, 0));
+    weberpenntree.buildTree("basil3", make_vec3(1, 0.2, 0));
+    weberpenntree.buildTree("basil2", make_vec3(1.4, 0, 0));
+    weberpenntree.buildTree("mint3", make_vec3(1.8, 0.8, 0));
+    weberpenntree.buildTree("mint2", make_vec3(1.3, 0.5, 0));
+    weberpenntree.buildTree("mint1", make_vec3(1.8, 0.6, 0));
+    weberpenntree.buildTree("bokchoy1", make_vec3(1.8, 0.5, 0));
+    weberpenntree.buildTree("mint1", make_vec3(1.8, 0.4, 0));
+    weberpenntree.buildTree("mint2", make_vec3(1.7, 0.8, 0));
+    weberpenntree.buildTree("mint3", make_vec3(1.8, 1.3, 0));
+    weberpenntree.buildTree("mint2", make_vec3(0.2, 1.7, 0));
+    weberpenntree.buildTree("mint2", make_vec3(0.5, 0.6, 0));
+    weberpenntree.buildTree("bokchoy2", make_vec3(0.5, 0.1, 0));
+    weberpenntree.buildTree("bokchoy4", make_vec3(0.5, 1.2, 0));
+    weberpenntree.buildTree("bokchoy3", make_vec3(1.8, 1, 0));
+    weberpenntree.buildTree("basil3", make_vec3(1.4, 0.8, 0));
+    weberpenntree.buildTree("mint3", make_vec3(1.9, 1.7, 0));
+    weberpenntree.buildTree("bokchoy3", make_vec3(1.2, 1.8, 0));
+    weberpenntree.buildTree("bokchoy3", make_vec3(1.2, 1.3, 0));
 
     weberpenntree.buildTree("dill4", make_vec3(1.1, 1.5, 0));
     weberpenntree.buildTree("dill5", make_vec3(0.9, 1.7, 0));
@@ -113,8 +126,15 @@ int main(void)
     weberpenntree.buildTree("dill5", make_vec3(0.85, 1.6, 0));
     weberpenntree.buildTree("dill4", make_vec3(0.9, 1.3, 0));
     weberpenntree.buildTree("dill5", make_vec3(1.5, 0.3, 0));
+    weberpenntree.buildTree("dill5", make_vec3(1.6, 1, 0));
+    weberpenntree.buildTree("dill3", make_vec3(1.5, 1, 0));
+    weberpenntree.buildTree("dill5", make_vec3(1.6, 1.2, 0));
     weberpenntree.buildTree("dill4", make_vec3(1.35, 0.3, 0));
     weberpenntree.buildTree("dill5", make_vec3(1.35, 0.1, 0));
+    weberpenntree.buildTree("dill5", make_vec3(0.5, 0.3, 0));
+    weberpenntree.buildTree("dill5", make_vec3(0.5, 0.4, 0));
+    weberpenntree.buildTree("dill5", make_vec3(0.3, 0.9, 0));
+    weberpenntree.buildTree("dill5", make_vec3(0.3, 1.1, 0));
 
     // std::cout << std::to_string(ID_basil) << std::endl;
 
