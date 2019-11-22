@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -std=c++11  -rdynamic CMakeFiles/SimVideo_exe.dir/main.o  -o SimVideo_exe -Wl,-rpath,/home/shivin/helios/SimVideo/build/lib lib/libhelios.a lib/libvisualizer.a lib/libweberpenntree.a lib/libhelios.a lib/libpng16.a lib/libz.a -lm lib/libfreetype.so.2.7.0 lib/libGLEW.a lib/libjpeg.so lib/libglfw.so.3.2 -lGL -lGLU -lSM -lICE -lX11 -lXext 

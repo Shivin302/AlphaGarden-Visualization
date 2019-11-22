@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+972554018a96a8882ab5c0de56038a81 lib/CMakeFiles/genfiles
+c6e71f7554972db6a8e4038f1bc78f3a lib/CMakeFiles/genprebuilt
+972554018a96a8882ab5c0de56038a81 lib/CMakeFiles/gensym
+972554018a96a8882ab5c0de56038a81 lib/CMakeFiles/genvers
+972554018a96a8882ab5c0de56038a81 lib/CMakeFiles/symbol-check
+325ac12b33ffda50341bf496b05ba4e4 lib/libpng.sym
+0b3f0b67101eadb0e9eec5a1afd3c92c lib/libpng.vers
+2faf109427f2195c79cbfd48305be389 lib/pnglibconf.c
+9bdd80f2b6c1e36b9cb15ee3355bbf0c lib/pnglibconf.h
+648267d902f15dd7e37ed0a07ea69412 lib/pnglibconf.out
+efe5ff785dbfbddbdd879a0265fd7927 lib/pngprefix.h
+4fffe117b3b9c64ea7379ff3a73845ac lib/scripts/intprefix.out
+faf41d0e9057131296642756c62cccd4 lib/scripts/pnglibconf.c
+fb9ab38ea3cb1faedb75446a3a158cc8 lib/scripts/prefix.out
+b0610d98f18e26c376cb43197034507c lib/scripts/sym.out
+b71db84eb3921e1b1a09beab202a2a40 lib/scripts/symbols.chk
+24288cb91b2a1b843f0188f5afcaee10 lib/scripts/symbols.out
+277e7a03ab971c4392b8d9b90886022d lib/scripts/vers.out
+573cff66d78133d94239e1559369cded plugins/visualizer/lib/freetype-2.7/CMakeFiles/dist
+e3c606ea541e5130574e3a32e343f391 plugins/visualizer/lib/glfw-3.2.1/CMakeFiles/uninstall

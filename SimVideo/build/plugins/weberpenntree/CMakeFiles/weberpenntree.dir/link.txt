@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libweberpenntree.a  CMakeFiles/weberpenntree.dir/src/WeberPennTree.o
+/usr/bin/ranlib ../../lib/libweberpenntree.a

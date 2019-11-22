@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -std=c++11   CMakeFiles/SAGVis_exe.dir/main.o  -o SAGVis_exe -rdynamic lib/libhelios.a lib/libvisualizer.a lib/libhelios.a lib/libpng16.a lib/libz.a -lm lib/libfreetype.so.2.7.0 lib/libGLEW.a lib/libjpeg.so lib/libglfw.so.3.2 -lGLU -lGL -lSM -lICE -lX11 -lXext -Wl,-rpath,/home/shivin/helios/SAGVis/build/lib 
